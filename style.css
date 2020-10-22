@@ -1,0 +1,42 @@
+.navbar-li {
+	display: inline-block;
+}
+.navbar-li:after {
+	content: '';
+	width: 2px;
+	height: 20px;
+	background-color: red;
+	display: inline-block;
+}
+.navbar-li:last-child:after {
+	display: none;
+}
+.navbar-li:before {
+	content: '';
+	width: 2px;
+	height: 20px;
+	background-color: black;
+	display: inline-block;
+}
+.logo {
+	width: 100px;
+	display: block;
+	float: right;
+}
+.logo img {
+	width: 100%;
+}
+.navbar {
+	float:left;
+}
+.clear {
+	clear: both;
+}
+header {
+	background-color: red
+}
+header:after {
+	content: '';
+	display: block;
+	clear: both
+}
